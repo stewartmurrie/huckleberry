@@ -14,6 +14,8 @@ body {
 
 .intro-chunk {
     max-width: 400px;
+    padding-left: 32px;
+    padding-right: 32x;
 }
 .intro-chunk p {
   font-size: 1.25rem;
@@ -39,16 +41,16 @@ main {
 }
 
 .max-width-wrapper {
-    max-width: 640px;
+    max-width: 600px;
     margin: 64px auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
   }
 
 .card {
   background-color: white;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-  padding: 24px;
+  padding: 32px;
 }
 
 .indented-heading {
@@ -57,7 +59,5 @@ main {
   width: fit-content;
   padding: 16px 40px 16px 32px;
   margin-left: -40px;
-  margin-top: -16px;
-  /* I need to offset margin-top because this class is being applied
-  to an h2, which has a default top margin of 0.83em */
+  margin-top: -24px;
 }
