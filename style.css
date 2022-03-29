@@ -57,7 +57,7 @@ main {
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 4px solid hsl(45deg, 100%, 40%);
   width: fit-content;
-  padding: 16px 40px 16px 32px;
+  padding: 16px 40px;
   margin-left: -40px;
   margin-top: -24px;
 }
